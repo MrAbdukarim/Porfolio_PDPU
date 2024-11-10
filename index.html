@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#register">Register New Student</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Aside Section -->
+    <aside>
+      <h1>Sidebar Menu</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#register">Register New Student</a></li>
+      </ul>
+    </aside>
+
+    <!-- About Section -->
+    <main class="content" id="about">
+      <div class="box">
+        <h1>About Me</h1>
+        <div class="container">
+          <img src="img/Blue.png" alt="Profile Picture" />
+          <p>
+            Hello! I'm [Your Name]. a passionate web developer with over 5 years
+            of experience in building dynamic and responsive websites. I
+            specialize in front-end development, using technologies like HTML,
+            CSS, and JavaScript to create user-friendly interfaces. I have a
+            Strong eye for design and a keen understanding Of user experience,
+            which helps me craft visually appealing and functional websites. My
+            journey in web development began when I created my first website as
+            a hobby, and since then. it has grown into a fulfilling career. In
+            addition to web development, I enjoy learning about new technologies
+            and frameworks, attending tech meetups, and collaborating with
+            fellow developers. When I'm not coding, you can find me exploring
+            the outdoors, reading tech blogs, or experimenting with graphic
+            design, Feel free to reach out if you're interested in collaborating
+            on a project or just want to Chat about web development!
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Projects Section -->
+    <section class="content" id="projects">
+      <div class="box">
+        <h1>My Projects</h1>
+        <div class="container">
+          <div class="project-box box-1">
+            <h3>Project 1</h3>
+            <p>Details about project 1</p>
+          </div>
+          <div class="project-box box-2">
+            <h3>Project 2</h3>
+            <p>Details about project 2</p>
+          </div>
+          <div class="project-box box-3">
+            <h3>Project 3</h3>
+            <p>Details about project 3</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section class="content projects">
+      <div class="box">
+        <h1>Gallery</h1>
+        <div class="container grid-gallery">
+          <img src="https://s3-cdn.cmlabs.co/page/2023/10/04/web-developer-definition-skills-and-responsibilities-908401.png" alt="" />
+          <img src="https://bootcamprankings.com/wp-content/uploads/2021/01/How-to-Learn-Web-Development-768x763.png" alt="" />
+          <img src="https://media.licdn.com/dms/image/D5612AQEhKguQVjXr4g/article-cover_image-shrink_600_2000/0/1693971265825?e=2147483647&v=beta&t=vRAWRIEHIp6sKRbLxQ_QmHTgjmTRYhj8vOLwlhskjzg" alt="" />
+          <img src="https://bootcamprankings.com/wp-content/uploads/2021/01/How-to-Learn-Web-Development-768x763.png" alt="" />
+          <img src="https://media.licdn.com/dms/image/D5612AQEhKguQVjXr4g/article-cover_image-shrink_600_2000/0/1693971265825?e=2147483647&v=beta&t=vRAWRIEHIp6sKRbLxQ_QmHTgjmTRYhj8vOLwlhskjzg" alt="" />
+          <img src="https://s3-cdn.cmlabs.co/page/2023/10/04/web-developer-definition-skills-and-responsibilities-908401.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="content" id="skills">
+      <div class="box">
+        <h1>Skills</h1>
+        <div class="container">
+          <table>
+            <tr>
+              <th>Skill</th>
+              <th>Level</th>
+              <th>Experience (Years)</th>
+            </tr>
+            <tr>
+              <td>HTML</td>
+              <td>Expert</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Intermediate</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Intermediate</td>
+              <td>3</td>
+            </tr>
+            <tr>
+              <td>React</td>
+              <td>Beginner</td>
+              <td>1</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact content" id="contact">
+      <div class="box">
+        <h1>Contact Me</h1>
+        <div class="container">
+          <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" />
+
+            <label for="message">Message:</label>
+            <textarea id="message"></textarea>
+
+            <label for="phone">Phone (oprional):</label>
+            <input type="tel" id="phone" />
+
+            <label for="select">Preferred Contact Method:</label>
+            <select id="select">
+              <option value="email">Email</option>
+              <option value="telegram">Telegram</option>
+              <option value="messeage">Message</option>
+              <option value="whatsapp">WhatsApp</option>
+            </select>
+
+            <label for="services">Services Interested In:</label>
+            <input type="checkbox" name="web" id="web" />
+            <label for="web">Web Development</label>
+            <input type="checkbox" name="design" id="design" />
+            <label for="design">Graphic Design</label>
+            <input type="checkbox" name="seo" id="seo" />
+            <label for="seo">SEO Services</label>
+
+            <button type="submit" onclick="alert('Xabar yuborildi')">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Register Pop-up Form -->
+    <section class="register" id="register">
+      <div class="box">
+        <div class="container">
+          <div class="top_item">
+            <h1>Register New Student</h1>
+            <a href="#">&times;</a>
+          </div>
+
+          <form action="#">
+            <label for="register-name">Name:</label>
+            <input type="text" />
+
+            <label for="register-email">Email:</label>
+            <input type="email" />
+
+            <label for="register-course">Course:</label>
+            <input type="text" />
+
+            <button type="submit" onclick="alert('Qo`shildi')">Register</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Your Name</p>
+    </footer>
+  </body>
+</html>
